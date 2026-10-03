@@ -1,7 +1,9 @@
 #include <iostream>
+#include <sys/syscall.h>
 
 
 
 int main() {
-  std::cout << 1;
+  write()
+
 }
